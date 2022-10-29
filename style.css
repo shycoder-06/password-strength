@@ -1,33 +1,27 @@
-body {
-  background-color: aqua;
-}
-.inner-background {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.page-bg {
+  width: 100vw;
+  height: 100vh;
   margin: auto;
-  width: fit-content;
-  border-radius: 5%;
+  background-image: url("https://images.unsplash.com/photo-1556745757-8d76bdb6984b");
 }
 
-.text-center {
-  text-align: center;
+.inner-background {
+  background-color: #ffffff;
+  border-radius: 2%;
+  padding: 50px;
 }
 
 .textbox-border {
   border-color: #e2e8f0;
-  margin: 16px;
   border-width: 1px;
   border-style: solid;
+  border-radius: 2%;
 }
 
 .block {
-  display: block;
   width: 100%;
   padding: 8px;
-  margin: 8px;
+  margin-top: 8px;
 }
 
 .label {
@@ -36,4 +30,11 @@ body {
 .box {
   margin-top: 16px;
   margin-bottom: 16px;
+}
+.button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  margin: 16px;
+  width: auto;
 }
