@@ -1,38 +1,33 @@
 body {
-  /* background-color: aqua; */
   background-image: url("https://images.unsplash.com/photo-1556745757-8d76bdb6984b");
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
-.inner-background {
+.content-container {
   background-color: #ffffff;
-  text-align: center;
   padding: 40px;
 }
 
-.box {
-  text-align: left;
-  margin-top: 16px;
-  margin-bottom: 16px;
+.description {
+  text-align: center;
+}
+
+.input-field {
+  margin: 16px 0;
 }
 
 .label {
   display: block;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  text-align: left;
+  padding: 8px 0;
 }
 
 .input-box {
   padding: 8px;
-  border-color: #e2e8f0;
-  border-style: solid;
+  border: 1px solid #e2e8f0;
   border-radius: 5%;
-  border-width: 1px;
   width: 100%;
 }
 
